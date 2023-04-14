@@ -1,8 +1,26 @@
+
+/* ********************************************************** */
+/* **********************HOME PAGE********************** */
+
+
 /* **********************WHOLE DOCUMENT********************** */
 body {
+	font-family: "Ubuntu";
+	font-size: 1.2rem;
+	line-height: 2.5rem;
 	text-align: center;
+	/* padding: 0 3%; */
 }
 
+a.btn {
+	margin-top: 10px;
+}
+
+footer {
+background-color: #333;
+color: #fff;
+padding: 1em;
+}
 /* **********************NAVBAR********************** */
 .navbar-brand {
     font-family: "Ubuntu";
@@ -31,36 +49,66 @@ body {
 }
 
 .welcome-text {
-	font-family: "Ubuntu";
+	border-radius: 10px;
+	font-family: "Montserrat";
 	padding: 0 25%;
 }
 
-/* **********************USER SECTION********************** */
-#user-page {
+.welcome-text h2 {
+	/* font-family: ""; */
+	color: darkslategray;
+	font-size: 3rem;
+	font-weight: 900;
+}
+
+#about .col-md-6 {
+	background-color: rgb(235, 240, 244);
+	padding: 5%;
+}
+
+#about img {
+	float: top;
+	width: 200px;
+}
+/* **********************POLLS SECTION********************** */
+#poll {
 	text-align: center;
     padding: 100px;
 }
 
-#user-page a {
-	color: black;
+#poll a {
+	/* color: black; */
 	text-decoration: none;
 }
 
-#user-page .col-lg-4 {
+#poll .col-lg-4 {
 	padding: 5% 2%;
 }
 
-#user-page h3 {
-	color: brown;
+#poll h2 {
+	color: darkslategray;
+	font-weight: bold;
+}
+
+#poll-text {
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.611);
 }
 
 button.go-check {
 
 }
 
+.card-title {
+	padding-top: 10px;
+}
+
 .card-body a {
 	color: white;
 }
+
+/* **********************FOOTER********************** */
+
 
 /* ******************************************************** */
 /* **********************VOTING PAGE********************** */
@@ -70,4 +118,49 @@ button.go-check {
 
 #polls .col-lg-4 {
 	margin-top: 20px;
+}
+
+/* ******************************************************* */
+/* *******************LOGIN PAGE************************** */
+   
+#login-page main {
+    padding: 1em;
+   }
+   
+#login-page form {
+    border: 1px solid #ccc;
+	border-radius: 5%;
+    padding: 1em;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+	width: 500px;
+   }
+   
+#login-page label {
+    margin-bottom: 0.5em;
+   }
+   
+#login-page input {
+    padding: 0.5em;
+    border-radius: 5px;
+    
+    margin-bottom: 1em;
+   }
+   
+#login-page button {
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+   
+#login-page button:hover {
+    background-color: #555;
+   }
+
+#login-page .card {
+	border: none !important;
 }
