@@ -120,6 +120,31 @@ button.go-check {
 	margin-top: 20px;
 }
 
+#polls h3 {text-align: center;}
+		
+#polls #president {display: none;}
+#polls #president:target {display: block;}
+
+#polls #secretary {display: none;}
+#polls #secretary:target {display: block;}
+
+#polls #pro {display: none;}
+#polls #pro:target {display: block;}
+
+#polls #financial-sec {display: none;}
+#polls #financial-sec:target {display: block;}
+
+#polls #wocom {display: none;}
+#polls #wocom:target {display: block;}
+
+#polls #entertainment {display: none;}
+#polls #entertainment:target {display: block;}
+
+#vote-head-text {
+	font-size: 4rem;
+	color:#555;
+	padding-bottom: 10%;
+}
 /* ******************************************************* */
 /* *******************LOGIN PAGE************************** */
    
